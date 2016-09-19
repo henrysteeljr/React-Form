@@ -7,7 +7,7 @@ var UserDetailsContainer = React.createClass({
 
 
  componentDidMount : function(){
- console.log(this.props.location.state.arrayInfo)
+ console.log(this.props.location.state)
    
 
      	
