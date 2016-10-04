@@ -39,26 +39,11 @@ handleUpdateCountry: function (event) {
   });
  },
 
-componentDidMount: function () {
-
-   var newName= this.state.Uname; 
-   var newEmail= this.state.email;
-   var newAge= this.state.age;
-   var newCountry= this.state.country;
-   arrayInfo = [newName, newEmail, newAge, newCountry]
-   
-   this.setState({
-   	arrayInfo: [newName, newEmail, newAge, newCountry]
-   })
-},
-
 handleSubmitUser: function () {
 
    this.context.router.push({
 	pathname: '/userDetails',
-	state: {
-		arrayInfo: this.state.arrayInfo
-	   }
+	state: this.state
 	})
 },
 

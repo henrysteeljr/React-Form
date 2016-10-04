@@ -6,10 +6,10 @@ var transparentBg = require('../styles').transparentBg;
  function Home () {
   return (
     <div className="jumbotron col-sm-12 text-center" style={transparentBg}>
-      <h1>MY INFO</h1>
-      <p className='lead'>First REACT app</p>
+      <h1>Company Name</h1>
+      <p className='lead'>Join us</p>
       <Link to='/enterInfo'>
-        <button type='button' className='btn btn-lg btn-success'>Get Started</button>
+        <button type='button' className='btn btn-lg btn-success'>Sign Up</button>
       </Link>
     </div>
   )

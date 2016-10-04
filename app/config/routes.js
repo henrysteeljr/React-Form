@@ -8,7 +8,7 @@ var Main = require('../components/Main');
 var Home = require('../components/Home');
 var PromptContainer = require('../containers/PromptContainer');
 var UserDetailsContainer = require('../containers/UserDetailsContainer');
-
+var DoneContainer = require('../containers/DoneContainer');
 
 var routes = (
   <Router history={hashHistory}>
@@ -17,6 +17,7 @@ var routes = (
     <Route path= 'enterInfo' component={PromptContainer} />
     <Route path= 'action/:enterInfo' component={PromptContainer} />
     <Route path= 'userDetails' component={UserDetailsContainer} />
+    <Route path= 'done' component={DoneContainer} />
     </Route>
   </Router>
 );

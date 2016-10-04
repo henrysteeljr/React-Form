@@ -3,8 +3,9 @@ var styles = {
     background: 'transparent'
   },
   pad: {
-  	padding: '50px'
-  }
+  	padding: '20px'
+  },
 };
+
 
 module.exports = styles;
