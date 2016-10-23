@@ -32,7 +32,7 @@ sg.API(request, function(error, response) {
   console.log(response.body);
   console.log(response.headers);
 });
-alert('done');
+
 
 },
 
